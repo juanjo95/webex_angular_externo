@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "32c7c4a8-e798-46f9-b6bc-9be52c0e8f73",
+		"name": "WEBEX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17369532",
+		"_collection_link": "https://developerzallagox.postman.co/workspace/GSC-CLEAR~9dde8ee3-a0d9-4669-9b98-07e5081d49ac/collection/17369532-32c7c4a8-e798-46f9-b6bc-9be52c0e8f73?action=share&creator=17369532&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "https://webexapis.com/v1/access_token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer YWI1ZDM0ZWQtMTQ4OC00YjhhLWIwYzQtYzUxOWVmZDQ2YTEwNzA1OTc3N2QtMzYz_P0A1_ea5a2209-b8f9-43f6-94fd-33c82d62e74c",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "C1cddc8ebbaf86bed299261b820b39bc768f39372950498bef907cd672fdc7b62",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "1190ac796db83f7cadf6d2e018018eeb3a0eec9e6a9b32f1b96a5849c5a3e192",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "YmJhNTY5YzktMTY2NC00MzI0LTgyNzUtMjhkYmNmMmVlMGM4ZDRmYjMzYTItN2Q5_P0A1_ea5a2209-b8f9-43f6-94fd-33c82d62e74c",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://127.0.0.1:4200/",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://webexapis.com/v1/access_token",
+					"protocol": "https",
+					"host": [
+						"webexapis",
+						"com"
+					],
+					"path": [
+						"v1",
+						"access_token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

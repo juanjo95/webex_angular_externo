@@ -1,3 +1,3 @@
 <button (click)="createMeeting()">Crear reunión</button>
-<button (click)="redirectToMeeting()">Unirse reunión</button>
+<button (click)="redirectToMeeting()" [disabled]="!resp">Unirse reunión</button>
 
